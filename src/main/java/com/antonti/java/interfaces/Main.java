@@ -11,10 +11,13 @@ public class Main {
         printable.print();      // Foreign Policy
 
         Printable p = new Journal("Foreign Affairs");
-        p.print();  //// Foreign Affairs
+        p.print();  // Foreign Affairs
         String name = ((Journal) p).getName();
         System.out.println(name);   // Foreign Affairs
 
         Printable.read();   // Read printable
+
+        WaterPipe pipe = new WaterPipe();
+        pipe.printState(1); // Water is opened
     }
 }
