@@ -33,5 +33,11 @@ public class Main {
             System.out.println("Arrays are equal");
         } else System.out.println("Arrays are not equal");
 
+
+        // ADD MULTIPLE ELEMENTS TO AN ARRAYLIST AT ONCE
+        String[] arrCars = {"Volvo", "BMW", "Ford", "Mazda"}; //1st step: create an array with elements
+        List<String> lstCars = Arrays.asList(arrCars); //2nd step: create list from this array
+        System.out.println(lstCars);
+
     }
 }
